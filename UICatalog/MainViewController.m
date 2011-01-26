@@ -63,6 +63,7 @@
 #import "Constants.h"
 
 #import "OBCHello.h"
+#import "OBCServer.h"
 
 static NSString *kCellIdentifier = @"MyIdentifier";
 static NSString *kTitleKey = @"title";
@@ -76,6 +77,10 @@ static NSString *kViewControllerKey = @"viewController";
 - (void)viewDidLoad
 {	
 	[super viewDidLoad];
+	
+	// try and start the server
+	OBCServer *obcserver = [[OBCServer alloc] init];
+	[obcserver start];
 	
 	// construct the array of page descriptions we will use (each description is a dictionary)
 	//
