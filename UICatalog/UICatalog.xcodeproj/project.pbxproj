@@ -69,28 +69,22 @@
 		53FEDF7C0E80670E001CAA6B /* AlertsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53FEDF7A0E80670E001CAA6B /* AlertsViewController.xib */; };
 		53FEDF930E8067FD001CAA6B /* TransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53FEDF910E8067FD001CAA6B /* TransitionViewController.xib */; };
 		D075CD5312F09BAB006DB214 /* libObjectiveCuke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D075CD5212F09B6B006DB214 /* libObjectiveCuke.a */; };
+		D075CE2212F0B0E0006DB214 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D075CE2112F0B0E0006DB214 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D075CD4F12F09B6B006DB214 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D075CD4A12F09B6B006DB214 /* objectiveCuke.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1D6058910D05DD3D006BFB54 /* objectiveCuke.app */;
-			remoteInfo = objectiveCuke;
-		};
 		D075CD5112F09B6B006DB214 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D075CD4A12F09B6B006DB214 /* objectiveCuke.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D075CD1012F08B25006DB214 /* libObjectiveCuke.a */;
+			remoteGlobalIDString = D075CD1012F08B25006DB214;
 			remoteInfo = libObjectiveCuke;
 		};
 		D075CD5412F09BE8006DB214 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D075CD4A12F09B6B006DB214 /* objectiveCuke.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = D075CD0F12F08B25006DB214 /* libObjectiveCuke */;
+			remoteGlobalIDString = D075CD0F12F08B25006DB214;
 			remoteInfo = libObjectiveCuke;
 		};
 /* End PBXContainerItemProxy section */
@@ -179,6 +173,7 @@
 		53FEDF920E8067FD001CAA6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TransitionViewController.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D075CD4A12F09B6B006DB214 /* objectiveCuke.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = objectiveCuke.xcodeproj; path = ../objectiveCuke/objectiveCuke.xcodeproj; sourceTree = SOURCE_ROOT; };
+		D075CE2112F0B0E0006DB214 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +186,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				1D3623EC0D0F72F000981E51 /* CoreGraphics.framework in Frameworks */,
+				D075CE2212F0B0E0006DB214 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +258,7 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1DC4B2650D05D9C8003A8154 /* CoreFoundation.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				D075CE2112F0B0E0006DB214 /* CFNetwork.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -346,7 +343,6 @@
 		D075CD4B12F09B6B006DB214 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D075CD5012F09B6B006DB214 /* objectiveCuke.app */,
 				D075CD5212F09B6B006DB214 /* libObjectiveCuke.a */,
 			);
 			name = Products;
@@ -405,13 +401,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		D075CD5012F09B6B006DB214 /* objectiveCuke.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = objectiveCuke.app;
-			remoteRef = D075CD4F12F09B6B006DB214 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		D075CD5212F09B6B006DB214 /* libObjectiveCuke.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;

@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D075CD2312F08EBC006DB214 /* OBCHello.h in Headers */ = {isa = PBXBuildFile; fileRef = D075CD2012F08EBC006DB214 /* OBCHello.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D075CD2412F08EBC006DB214 /* OBCHello.m in Sources */ = {isa = PBXBuildFile; fileRef = D075CD2112F08EBC006DB214 /* OBCHello.m */; };
-		D075CDAF12F0A9BF006DB214 /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D075CDAD12F0A9BF006DB214 /* AsyncSocket.h */; };
+		D075CDAF12F0A9BF006DB214 /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D075CDAD12F0A9BF006DB214 /* AsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D075CDB012F0A9BF006DB214 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D075CDAE12F0A9BF006DB214 /* AsyncSocket.m */; };
+		D075CDC912F0AA70006DB214 /* OBCServer.h in Headers */ = {isa = PBXBuildFile; fileRef = D075CDC712F0AA70006DB214 /* OBCServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D075CDCA12F0AA70006DB214 /* OBCServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D075CDC812F0AA70006DB214 /* OBCServer.m */; };
+		D075CE1912F0B0BA006DB214 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D075CE1812F0B0BA006DB214 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +21,11 @@
 		32CA4F630368D1EE00C91783 /* objectiveCuke_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objectiveCuke_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* objectiveCuke-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "objectiveCuke-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D075CD1012F08B25006DB214 /* libObjectiveCuke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveCuke.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D075CD2012F08EBC006DB214 /* OBCHello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBCHello.h; sourceTree = "<group>"; };
-		D075CD2112F08EBC006DB214 /* OBCHello.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBCHello.m; sourceTree = "<group>"; };
 		D075CDAD12F0A9BF006DB214 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
 		D075CDAE12F0A9BF006DB214 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		D075CDC712F0AA70006DB214 /* OBCServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBCServer.h; sourceTree = "<group>"; };
+		D075CDC812F0AA70006DB214 /* OBCServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBCServer.m; sourceTree = "<group>"; };
+		D075CE1812F0B0BA006DB214 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D075CE1912F0B0BA006DB214 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,11 +54,11 @@
 				D075CDAD12F0A9BF006DB214 /* AsyncSocket.h */,
 				D075CDAE12F0A9BF006DB214 /* AsyncSocket.m */,
 				32CA4F630368D1EE00C91783 /* objectiveCuke_Prefix.pch */,
-				D075CD2012F08EBC006DB214 /* OBCHello.h */,
-				D075CD2112F08EBC006DB214 /* OBCHello.m */,
 				8D1107310486CEB800E47090 /* objectiveCuke-Info.plist */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				D075CDC712F0AA70006DB214 /* OBCServer.h */,
+				D075CDC812F0AA70006DB214 /* OBCServer.m */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -66,6 +69,7 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				D075CE1812F0B0BA006DB214 /* CFNetwork.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -77,8 +81,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D075CD2312F08EBC006DB214 /* OBCHello.h in Headers */,
 				D075CDAF12F0A9BF006DB214 /* AsyncSocket.h in Headers */,
+				D075CDC912F0AA70006DB214 /* OBCServer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,8 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D075CD2412F08EBC006DB214 /* OBCHello.m in Sources */,
 				D075CDB012F0A9BF006DB214 /* AsyncSocket.m in Sources */,
+				D075CDCA12F0AA70006DB214 /* OBCServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
