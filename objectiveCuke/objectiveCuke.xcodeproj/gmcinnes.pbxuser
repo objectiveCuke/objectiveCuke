@@ -70,6 +70,8 @@
 			D075CD2512F08EC9006DB214 /* PBXTextBookmark */ = D075CD2512F08EC9006DB214 /* PBXTextBookmark */;
 			D075CD2612F08EC9006DB214 /* PBXTextBookmark */ = D075CD2612F08EC9006DB214 /* PBXTextBookmark */;
 			D075CD2812F08F0E006DB214 /* PBXTextBookmark */ = D075CD2812F08F0E006DB214 /* PBXTextBookmark */;
+			D075CD7412F09D35006DB214 /* PBXTextBookmark */ = D075CD7412F09D35006DB214 /* PBXTextBookmark */;
+			D075CD8712F09D9C006DB214 /* PBXTextBookmark */ = D075CD8712F09D9C006DB214 /* PBXTextBookmark */;
 		};
 		sourceControlManager = D075CD1612F08B57006DB214 /* Source Control */;
 		userBuildSettings = {
@@ -91,6 +93,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -147,6 +150,26 @@
 		vrLoc = 0;
 	};
 	D075CD2812F08F0E006DB214 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D075CD2012F08EBC006DB214 /* OBCHello.h */;
+		name = "OBCHello.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 213;
+		vrLoc = 0;
+	};
+	D075CD7412F09D35006DB214 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D075CD2012F08EBC006DB214 /* OBCHello.h */;
+		name = "OBCHello.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 213;
+		vrLoc = 0;
+	};
+	D075CD8712F09D9C006DB214 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = D075CD2012F08EBC006DB214 /* OBCHello.h */;
 		name = "OBCHello.h: 1";
