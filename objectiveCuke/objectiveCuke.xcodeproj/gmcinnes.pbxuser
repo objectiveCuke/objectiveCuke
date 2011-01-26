@@ -1,0 +1,159 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* objectiveCuke */ = {
+		activeExec = 0;
+		executables = (
+			D075CD0112F08B01006DB214 /* objectiveCuke */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = D075CD0112F08B01006DB214 /* objectiveCuke */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* objectiveCuke */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* objectiveCuke */,
+			D075CD0F12F08B25006DB214 /* libObjectiveCuke */,
+		);
+		codeSenseManager = D075CD1712F08B57006DB214 /* Code sense */;
+		executables = (
+			D075CD0112F08B01006DB214 /* objectiveCuke */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 317754113;
+			PBXWorkspaceStateSaveDate = 317754113;
+		};
+		perUserProjectItems = {
+			D075CD2512F08EC9006DB214 /* PBXTextBookmark */ = D075CD2512F08EC9006DB214 /* PBXTextBookmark */;
+			D075CD2612F08EC9006DB214 /* PBXTextBookmark */ = D075CD2612F08EC9006DB214 /* PBXTextBookmark */;
+			D075CD2812F08F0E006DB214 /* PBXTextBookmark */ = D075CD2812F08F0E006DB214 /* PBXTextBookmark */;
+		};
+		sourceControlManager = D075CD1612F08B57006DB214 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	D075CD0112F08B01006DB214 /* objectiveCuke */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = objectiveCuke;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D075CD0F12F08B25006DB214 /* libObjectiveCuke */ = {
+		activeExec = 0;
+	};
+	D075CD1612F08B57006DB214 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	D075CD1712F08B57006DB214 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	D075CD2012F08EBC006DB214 /* OBCHello.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 245}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 213}";
+		};
+	};
+	D075CD2512F08EC9006DB214 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D075CD2012F08EBC006DB214 /* OBCHello.h */;
+		name = "OBCHello.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 213;
+		vrLoc = 0;
+	};
+	D075CD2612F08EC9006DB214 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D075CD2012F08EBC006DB214 /* OBCHello.h */;
+		name = "OBCHello.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 213;
+		vrLoc = 0;
+	};
+	D075CD2812F08F0E006DB214 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D075CD2012F08EBC006DB214 /* OBCHello.h */;
+		name = "OBCHello.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 213;
+		vrLoc = 0;
+	};
+}
