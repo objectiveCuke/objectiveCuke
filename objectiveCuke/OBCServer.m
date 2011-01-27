@@ -61,7 +61,7 @@ didConnectToHost:(NSString *)host
 			port:(UInt16)port
 {
 	NSLog(@"Accepted client %@:%hu", host, port);
-	[sock readDataToData:[AsyncSocket CRLFData]
+	[sock readDataToData:[AsyncSocket LFData]
 			 withTimeout:READ_TIMEOUT
 					 tag:0];
 }
