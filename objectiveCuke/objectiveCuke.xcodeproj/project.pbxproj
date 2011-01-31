@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D066DC3712F1EDCE00757561 /* OBCRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D066DC3512F1EDCE00757561 /* OBCRequestHandler.h */; };
+		D066DC3712F1EDCE00757561 /* OBCRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D066DC3512F1EDCE00757561 /* OBCRequestHandler.h */; settings = {ATTRIBUTES = (); }; };
 		D066DC3812F1EDCE00757561 /* OBCRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D066DC3612F1EDCE00757561 /* OBCRequestHandler.m */; };
 		D066DC3B12F1EF7000757561 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D066DC3912F1EF7000757561 /* JSONKit.h */; };
 		D066DC3C12F1EF7000757561 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D066DC3A12F1EF7000757561 /* JSONKit.m */; };
+		D066DC5212F223DF00757561 /* OBCController.h in Headers */ = {isa = PBXBuildFile; fileRef = D066DC5012F223DF00757561 /* OBCController.h */; settings = {ATTRIBUTES = (); }; };
+		D066DC5312F223DF00757561 /* OBCController.m in Sources */ = {isa = PBXBuildFile; fileRef = D066DC5112F223DF00757561 /* OBCController.m */; };
 		D075CDAF12F0A9BF006DB214 /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D075CDAD12F0A9BF006DB214 /* AsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D075CDB012F0A9BF006DB214 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D075CDAE12F0A9BF006DB214 /* AsyncSocket.m */; };
 		D075CDC912F0AA70006DB214 /* OBCServer.h in Headers */ = {isa = PBXBuildFile; fileRef = D075CDC712F0AA70006DB214 /* OBCServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,6 +30,8 @@
 		D066DC3612F1EDCE00757561 /* OBCRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBCRequestHandler.m; sourceTree = "<group>"; };
 		D066DC3912F1EF7000757561 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		D066DC3A12F1EF7000757561 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		D066DC5012F223DF00757561 /* OBCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBCController.h; sourceTree = "<group>"; };
+		D066DC5112F223DF00757561 /* OBCController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBCController.m; sourceTree = "<group>"; };
 		D075CD1012F08B25006DB214 /* libObjectiveCuke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveCuke.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D075CDAD12F0A9BF006DB214 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
 		D075CDAE12F0A9BF006DB214 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
@@ -71,6 +75,8 @@
 				D075CDC812F0AA70006DB214 /* OBCServer.m */,
 				D066DC3512F1EDCE00757561 /* OBCRequestHandler.h */,
 				D066DC3612F1EDCE00757561 /* OBCRequestHandler.m */,
+				D066DC5012F223DF00757561 /* OBCController.h */,
+				D066DC5112F223DF00757561 /* OBCController.m */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -97,6 +103,7 @@
 				D075CDC912F0AA70006DB214 /* OBCServer.h in Headers */,
 				D066DC3712F1EDCE00757561 /* OBCRequestHandler.h in Headers */,
 				D066DC3B12F1EF7000757561 /* JSONKit.h in Headers */,
+				D066DC5212F223DF00757561 /* OBCController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +160,7 @@
 				D075CDCA12F0AA70006DB214 /* OBCServer.m in Sources */,
 				D066DC3812F1EDCE00757561 /* OBCRequestHandler.m in Sources */,
 				D066DC3C12F1EF7000757561 /* JSONKit.m in Sources */,
+				D066DC5312F223DF00757561 /* OBCController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
