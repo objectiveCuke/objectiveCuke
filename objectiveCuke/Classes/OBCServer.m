@@ -16,9 +16,29 @@ NSString * const kCucumberMessage = @"kCucumberMessage";
 #define READ_TIMEOUT_EXTENSION 10.0
 #define PORT 7678
 
+static OBCServer *sharedOBCServer;
 
 @implementation OBCServer
 
+#pragma mark -
+#pragma mark Singleton methods
++ (OBCServer *)sharedOBCServer 
+{
+	if (!sharedOBCServer) 
+	{
+		sharedOBCServer = [[OBCServer alloc] init];
+	}
+	return sharedOBCServer;	
+}
+
++ (id)alloc 
+{
+	NSAssert(sharedOBCServer == nil, @"Attempted to allocate a second instance of a sharedOBCServer.");
+	sharedOBCServer = [super alloc];
+	return sharedOBCServer;
+}
+
+#pragma mark -
 - (id)init
 {
 	if((self = [super init]))

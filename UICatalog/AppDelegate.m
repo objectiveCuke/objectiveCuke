@@ -47,6 +47,7 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
+#import "OBCServer.h"
 
 // Note about Info.plist:
 //
@@ -84,6 +85,9 @@
 	// if you see "red", you are looking at the bare window, otherwise use black
 	// window.backgroundColor = [UIColor redColor];
 	
+	// try and start the server
+	[[OBCServer sharedOBCServer] start];
+
 	// add the navigation controller's view to the window
 	[window addSubview: navigationController.view];
 	[window makeKeyAndVisible];

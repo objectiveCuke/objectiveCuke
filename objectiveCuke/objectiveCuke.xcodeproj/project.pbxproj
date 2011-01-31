@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		481C929312F7577600AE33B1 /* TapStepDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 481C929112F7577600AE33B1 /* TapStepDefinition.h */; };
+		481C929412F7577600AE33B1 /* TapStepDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 481C929212F7577600AE33B1 /* TapStepDefinition.m */; };
 		D075CDAF12F0A9BF006DB214 /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D075CDAD12F0A9BF006DB214 /* AsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D075CDB012F0A9BF006DB214 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D075CDAE12F0A9BF006DB214 /* AsyncSocket.m */; };
 		D075CDC912F0AA70006DB214 /* OBCServer.h in Headers */ = {isa = PBXBuildFile; fileRef = D075CDC712F0AA70006DB214 /* OBCServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -19,6 +21,8 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		32CA4F630368D1EE00C91783 /* objectiveCuke_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objectiveCuke_Prefix.pch; sourceTree = "<group>"; };
+		481C929112F7577600AE33B1 /* TapStepDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapStepDefinition.h; sourceTree = "<group>"; };
+		481C929212F7577600AE33B1 /* TapStepDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapStepDefinition.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* objectiveCuke-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "objectiveCuke-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D075CD1012F08B25006DB214 /* libObjectiveCuke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveCuke.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D075CDAD12F0A9BF006DB214 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = Classes/AsyncSocket.h; sourceTree = "<group>"; };
@@ -52,8 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				481C928B12F753C600AE33B1 /* Classes */,
+				481C928E12F7557100AE33B1 /* Resources */,
 				32CA4F630368D1EE00C91783 /* objectiveCuke_Prefix.pch */,
-				8D1107310486CEB800E47090 /* objectiveCuke-Info.plist */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -78,8 +82,18 @@
 				D075CDC812F0AA70006DB214 /* OBCServer.m */,
 				D075CDAD12F0A9BF006DB214 /* AsyncSocket.h */,
 				D075CDAE12F0A9BF006DB214 /* AsyncSocket.m */,
+				481C929112F7577600AE33B1 /* TapStepDefinition.h */,
+				481C929212F7577600AE33B1 /* TapStepDefinition.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		481C928E12F7557100AE33B1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* objectiveCuke-Info.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +105,7 @@
 			files = (
 				D075CDAF12F0A9BF006DB214 /* AsyncSocket.h in Headers */,
 				D075CDC912F0AA70006DB214 /* OBCServer.h in Headers */,
+				481C929312F7577600AE33B1 /* TapStepDefinition.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +160,7 @@
 			files = (
 				D075CDB012F0A9BF006DB214 /* AsyncSocket.m in Sources */,
 				D075CDCA12F0AA70006DB214 /* OBCServer.m in Sources */,
+				481C929412F7577600AE33B1 /* TapStepDefinition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

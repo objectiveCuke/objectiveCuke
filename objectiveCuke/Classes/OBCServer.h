@@ -16,4 +16,7 @@
 	NSNotificationCenter* notificationCenter;
 }
 
++ (OBCServer *)sharedOBCServer;
+- (void)start;
+
 @end
