@@ -38,8 +38,13 @@ static UIDriver *sharedUIDriver;
 #pragma mark -
 #pragma mark Public Methods
 - (void)tapElementWithLabel: (NSString*)label {	
+	NSLog(@"label: %@",label);
 	UIQuery *app = [UIQuery withApplication];
-	[[app.tableViewCell.label text:@"Buttons"] touch];
+	if (!([label compare:@"Back"] == NSOrderedSame)) {
+		[[app.tableViewCell.label text:label] touch];		
+	} else {
+		[[app.navigationItemView.button.label text:label] touch];
+	}
 }
 
 

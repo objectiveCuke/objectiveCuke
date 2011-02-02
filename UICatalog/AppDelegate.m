@@ -97,7 +97,9 @@
 	UIDriver *driver = [UIDriver sharedUIDriver];
 	driver.appWindow = self.window;
 	
-	[driver performSelector: @selector(tapElementWithLabel:) withObject: @"Buttons" afterDelay: 5.];	
+	[driver performSelector: @selector(tapElementWithLabel:) withObject: @"Buttons" afterDelay: 2.];
+	[driver performSelector: @selector(tapElementWithLabel:) withObject: @"Back" afterDelay: 4.];
+//	[driver performSelector: @selector(tapElementWithLabel:) withObject: @"Controls" afterDelay: 10.];
 }
 
 - (void)dealloc
