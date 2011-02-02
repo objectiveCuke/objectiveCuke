@@ -48,6 +48,7 @@
 #import "AppDelegate.h"
 #import "MainViewController.h"
 #import "OBCServer.h"
+#import "UIDriver.h"
 
 // Note about Info.plist:
 //
@@ -87,10 +88,16 @@
 	
 	// try and start the server
 	[[OBCServer sharedOBCServer] start];
-
+	
 	// add the navigation controller's view to the window
 	[window addSubview: navigationController.view];
 	[window makeKeyAndVisible];
+
+	//test tapping a button
+	UIDriver *driver = [UIDriver sharedUIDriver];
+	driver.appWindow = self.window;
+	
+	[driver performSelector: @selector(tapElementWithLabel:) withObject: @"Buttons" afterDelay: 5.];	
 }
 
 - (void)dealloc

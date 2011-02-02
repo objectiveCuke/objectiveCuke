@@ -660,6 +660,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../objectiveCuke/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
@@ -671,6 +672,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../objectiveCuke/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PREBINDING = NO;
 				SDKROOT = iphoneos4.0;

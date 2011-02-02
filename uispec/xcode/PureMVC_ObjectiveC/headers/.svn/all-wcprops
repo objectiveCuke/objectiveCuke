@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers
+END
+IProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/IProxy.h
+END
+IController.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/IController.h
+END
+INotification.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/INotification.h
+END
+IObserver.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/IObserver.h
+END
+MacroCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/MacroCommand.h
+END
+Model.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/Model.h
+END
+Facade.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/Facade.h
+END
+Mediator.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/Mediator.h
+END
+IModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/IModel.h
+END
+View.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/View.h
+END
+IFacade.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/IFacade.h
+END
+IMediator.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/IMediator.h
+END
+PureMVC_ObjectiveC_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/PureMVC_ObjectiveC_Prefix.pch
+END
+Notifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/Notifier.h
+END
+Proxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/Proxy.h
+END
+Controller.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/Controller.h
+END
+IView.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/IView.h
+END
+Notification.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/Notification.h
+END
+Observer.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/Observer.h
+END
+ICommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/ICommand.h
+END
+INotifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/INotifier.h
+END
+SimpleCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/headers/SimpleCommand.h
+END

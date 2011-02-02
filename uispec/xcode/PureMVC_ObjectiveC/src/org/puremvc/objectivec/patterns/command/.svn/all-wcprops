@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/src/org/puremvc/objectivec/patterns/command
+END
+SimpleCommand.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/src/org/puremvc/objectivec/patterns/command/SimpleCommand.m
+END
+MacroCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/src/org/puremvc/objectivec/patterns/command/MacroCommand.h
+END
+MacroCommand.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/src/org/puremvc/objectivec/patterns/command/MacroCommand.m
+END
+SimpleCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/src/org/puremvc/objectivec/patterns/command/SimpleCommand.h
+END

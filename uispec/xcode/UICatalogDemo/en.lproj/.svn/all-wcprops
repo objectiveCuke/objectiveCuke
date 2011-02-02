@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/58/trunk/xcode/UICatalogDemo/en.lproj
+END
+SearchBarController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/58/trunk/xcode/UICatalogDemo/en.lproj/SearchBarController.xib
+END
+SegmentViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/58/trunk/xcode/UICatalogDemo/en.lproj/SegmentViewController.xib
+END
+ToolbarViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/58/trunk/xcode/UICatalogDemo/en.lproj/ToolbarViewController.xib
+END
+ControlsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/58/trunk/xcode/UICatalogDemo/en.lproj/ControlsViewController.xib
+END
+TextViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/58/trunk/xcode/UICatalogDemo/en.lproj/TextViewController.xib
+END
+ImagesViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/58/trunk/xcode/UICatalogDemo/en.lproj/ImagesViewController.xib
+END
+Localizable.strings
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/58/trunk/xcode/UICatalogDemo/en.lproj/Localizable.strings
+END
+TransitionViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/58/trunk/xcode/UICatalogDemo/en.lproj/TransitionViewController.xib
+END
+AlertsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/58/trunk/xcode/UICatalogDemo/en.lproj/AlertsViewController.xib
+END
+PickerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/58/trunk/xcode/UICatalogDemo/en.lproj/PickerViewController.xib
+END
+MainWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/58/trunk/xcode/UICatalogDemo/en.lproj/MainWindow.xib
+END
+TextFieldController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/58/trunk/xcode/UICatalogDemo/en.lproj/TextFieldController.xib
+END
+WebViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/58/trunk/xcode/UICatalogDemo/en.lproj/WebViewController.xib
+END
+ButtonsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/58/trunk/xcode/UICatalogDemo/en.lproj/ButtonsViewController.xib
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/src/org/puremvc/objectivec/patterns/observer
+END
+Notification.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/src/org/puremvc/objectivec/patterns/observer/Notification.m
+END
+Observer.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/src/org/puremvc/objectivec/patterns/observer/Observer.m
+END
+Notifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/src/org/puremvc/objectivec/patterns/observer/Notifier.h
+END
+Notifier.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/src/org/puremvc/objectivec/patterns/observer/Notifier.m
+END
+Notification.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/src/org/puremvc/objectivec/patterns/observer/Notification.h
+END
+Observer.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/src/org/puremvc/objectivec/patterns/observer/Observer.h
+END

@@ -1,0 +1,39 @@
+#summary How To Install UISpec.
+
+===Getting UISpec===
+Currently UISpec is available only through the repository.  Soon we will have a distribution zip that you can download. For now just:
+
+ * Checkout/export UISpec using subversion, which is explained [http://code.google.com/p/uispec/source/checkout here].
+
+
+Inside you will find
+
+ * The API documentation: doc/html/index.html
+ * The source code: src/
+ * The UISpec XCode Project you will be adding to your iphone XCode project: xcode/UISpec/UISpec.xcodeproj
+ * The bundle for use with UIBug: src/UISpec.bundle
+ * The header files for use in your iphone XCode project: headers/
+
+===Adding UISpec To Your Project===
+To add the UISpec project and headers to your iphone XCode project:
+
+ * Drag UISpec.xcodeproj and drop it onto the root of your Xcode project's "Groups and Files" sidebar. A dialog will appear -- make sure "Copy items" is NOT checked and "Reference Type" is "Relative to Project" before clicking "Add".
+
+ * Next you need to link the UISpec static library to your project by looking under the "Details" table, and checking the checkbox on the far right for libUISpec.a
+ 
+ * Now you need to add UISpec as a dependency to your project by expanding the "Targets" section of the sidebar and double-clicking your application's target.  Under the "General" tab you will see a "Direct Dependencies" section.  Click the "+" button, select "UISpec" and click "Add Target".
+
+To add the headers:
+
+ * From the Groups & Files pane, double click the respective target or right click and select, Get Info, and then click on the Build tab.
+ * Under the setting, Header Search Paths, "{YOUR PATH TO UISPEC}/headers"
+
+To add the bundle:
+
+ * From the Groups & Files pane, right click on a folder and select
+   * Add -> Existing Files...
+   * From here just select the UISpec.bundle found in the src/ folder
+
+
+===What's Next===
+Now that you have installed UISpec, take a look at the [http://code.google.com/p/uispec/wiki/Documentation UISpec Documentation] will you will learn about writing specs and how to run them.

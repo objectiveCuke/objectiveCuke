@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/3/trunk/xcode/UISpecDemo/Classes/EmployeeAdmin/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller
+END
+UpdateUserRolesCommand.m
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/3/trunk/xcode/UISpecDemo/Classes/EmployeeAdmin/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserRolesCommand.m
+END
+DeleteUserCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/3/trunk/xcode/UISpecDemo/Classes/EmployeeAdmin/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/DeleteUserCommand.h
+END
+UpdateUserCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/3/trunk/xcode/UISpecDemo/Classes/EmployeeAdmin/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserCommand.h
+END
+GetUsersCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/3/trunk/xcode/UISpecDemo/Classes/EmployeeAdmin/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUsersCommand.h
+END
+CreateUserCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/3/trunk/xcode/UISpecDemo/Classes/EmployeeAdmin/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/CreateUserCommand.h
+END
+StartupCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/3/trunk/xcode/UISpecDemo/Classes/EmployeeAdmin/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/StartupCommand.h
+END
+GetUserRolesCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/3/trunk/xcode/UISpecDemo/Classes/EmployeeAdmin/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUserRolesCommand.h
+END
+GetUsersCommand.m
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/3/trunk/xcode/UISpecDemo/Classes/EmployeeAdmin/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUsersCommand.m
+END
+UpdateUserRolesCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/3/trunk/xcode/UISpecDemo/Classes/EmployeeAdmin/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserRolesCommand.h
+END
+DeleteUserCommand.m
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/3/trunk/xcode/UISpecDemo/Classes/EmployeeAdmin/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/DeleteUserCommand.m
+END
+UpdateUserCommand.m
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/3/trunk/xcode/UISpecDemo/Classes/EmployeeAdmin/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/UpdateUserCommand.m
+END
+CreateUserCommand.m
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/3/trunk/xcode/UISpecDemo/Classes/EmployeeAdmin/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/CreateUserCommand.m
+END
+StartupCommand.m
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/3/trunk/xcode/UISpecDemo/Classes/EmployeeAdmin/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/StartupCommand.m
+END
+GetUserRolesCommand.m
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/3/trunk/xcode/UISpecDemo/Classes/EmployeeAdmin/src/org/puremvc/objectivec/demos/uikit/employeeadmin/controller/GetUserRolesCommand.m
+END

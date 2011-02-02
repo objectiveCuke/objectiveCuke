@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/77/trunk/xcode/UISpecDemo
+END
+UISpecDemo_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/xcode/UISpecDemo/UISpecDemo_Prefix.pch
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3/trunk/xcode/UISpecDemo/Info.plist
+END
+SpecMain.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/41/trunk/xcode/UISpecDemo/SpecMain.m
+END
+MainWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/3/trunk/xcode/UISpecDemo/MainWindow.xib
+END

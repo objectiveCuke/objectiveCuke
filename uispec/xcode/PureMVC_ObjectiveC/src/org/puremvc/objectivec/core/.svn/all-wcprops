@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/src/org/puremvc/objectivec/core
+END
+View.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/src/org/puremvc/objectivec/core/View.h
+END
+View.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/src/org/puremvc/objectivec/core/View.m
+END
+Model.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/src/org/puremvc/objectivec/core/Model.h
+END
+Controller.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/src/org/puremvc/objectivec/core/Controller.h
+END
+Model.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/src/org/puremvc/objectivec/core/Model.m
+END
+Controller.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/77/trunk/xcode/PureMVC_ObjectiveC/src/org/puremvc/objectivec/core/Controller.m
+END
