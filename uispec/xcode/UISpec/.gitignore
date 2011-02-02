@@ -1,0 +1,6 @@
+# xcode noise
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+*.pyc
+*~.nib/
+build/*
