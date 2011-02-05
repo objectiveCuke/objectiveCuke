@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37BEAED412FD755800392C06 /* UITouch+DriverExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BEAED212FD755800392C06 /* UITouch+DriverExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37BEAED512FD755800392C06 /* UITouch+DriverExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BEAED312FD755800392C06 /* UITouch+DriverExtensions.m */; };
+		37BEAEDE12FD778000392C06 /* UIQuery+TouchExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BEAEDC12FD778000392C06 /* UIQuery+TouchExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37BEAEDF12FD778000392C06 /* UIQuery+TouchExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BEAEDD12FD778000392C06 /* UIQuery+TouchExtensions.m */; };
 		481C929312F7577600AE33B1 /* UIDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 481C929112F7577600AE33B1 /* UIDriver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		481C929412F7577600AE33B1 /* UIDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 481C929212F7577600AE33B1 /* UIDriver.m */; };
 		4820F2C612F8E556001DEA05 /* libUISpec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4820F2C312F8E547001DEA05 /* libUISpec.a */; };
@@ -46,6 +50,10 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		32CA4F630368D1EE00C91783 /* objectiveCuke_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objectiveCuke_Prefix.pch; sourceTree = "<group>"; };
+		37BEAED212FD755800392C06 /* UITouch+DriverExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITouch+DriverExtensions.h"; sourceTree = "<group>"; };
+		37BEAED312FD755800392C06 /* UITouch+DriverExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITouch+DriverExtensions.m"; sourceTree = "<group>"; };
+		37BEAEDC12FD778000392C06 /* UIQuery+TouchExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIQuery+TouchExtensions.h"; sourceTree = "<group>"; };
+		37BEAEDD12FD778000392C06 /* UIQuery+TouchExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIQuery+TouchExtensions.m"; sourceTree = "<group>"; };
 		481C929112F7577600AE33B1 /* UIDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIDriver.h; path = Classes/UIDriver.h; sourceTree = "<group>"; };
 		481C929212F7577600AE33B1 /* UIDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIDriver.m; path = Classes/UIDriver.m; sourceTree = "<group>"; };
 		4820F2BA12F8E546001DEA05 /* UISpec.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UISpec.xcodeproj; path = ../uispec/xcode/UISpec/UISpec.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -104,9 +112,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		37BEAED112FD752D00392C06 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				37BEAEDB12FD777000392C06 /* UIQuery */,
+				37BEAEDA12FD776A00392C06 /* UITouch */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		37BEAEDA12FD776A00392C06 /* UITouch */ = {
+			isa = PBXGroup;
+			children = (
+				37BEAED212FD755800392C06 /* UITouch+DriverExtensions.h */,
+				37BEAED312FD755800392C06 /* UITouch+DriverExtensions.m */,
+			);
+			name = UITouch;
+			sourceTree = "<group>";
+		};
+		37BEAEDB12FD777000392C06 /* UIQuery */ = {
+			isa = PBXGroup;
+			children = (
+				37BEAEDC12FD778000392C06 /* UIQuery+TouchExtensions.h */,
+				37BEAEDD12FD778000392C06 /* UIQuery+TouchExtensions.m */,
+			);
+			name = UIQuery;
+			sourceTree = "<group>";
+		};
 		481C928B12F753C600AE33B1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				37BEAED112FD752D00392C06 /* Categories */,
 				D075CDC712F0AA70006DB214 /* OBCServer.h */,
 				D075CDC812F0AA70006DB214 /* OBCServer.m */,
 				D075CDAD12F0A9BF006DB214 /* AsyncSocket.h */,
@@ -145,6 +181,8 @@
 				D075CDAF12F0A9BF006DB214 /* AsyncSocket.h in Headers */,
 				D075CDC912F0AA70006DB214 /* OBCServer.h in Headers */,
 				481C929312F7577600AE33B1 /* UIDriver.h in Headers */,
+				37BEAED412FD755800392C06 /* UITouch+DriverExtensions.h in Headers */,
+				37BEAEDE12FD778000392C06 /* UIQuery+TouchExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +262,8 @@
 				D075CDB012F0A9BF006DB214 /* AsyncSocket.m in Sources */,
 				D075CDCA12F0AA70006DB214 /* OBCServer.m in Sources */,
 				481C929412F7577600AE33B1 /* UIDriver.m in Sources */,
+				37BEAED512FD755800392C06 /* UITouch+DriverExtensions.m in Sources */,
+				37BEAEDF12FD778000392C06 /* UIQuery+TouchExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

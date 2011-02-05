@@ -15,6 +15,14 @@
 		2FDBB76110EECD0200193065 /* UIQueryTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBB75910EECD0200193065 /* UIQueryTabBar.m */; };
 		2FDBB76210EECD0200193065 /* UIQueryWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FDBB75A10EECD0200193065 /* UIQueryWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FDBB76310EECD0200193065 /* UIQueryWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBB75B10EECD0200193065 /* UIQueryWebView.m */; };
+		37BEAEF612FD791E00392C06 /* UITouch+Synthesize.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BEAEF412FD791E00392C06 /* UITouch+Synthesize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37BEAEF712FD791E00392C06 /* UITouch+Synthesize.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BEAEF512FD791E00392C06 /* UITouch+Synthesize.m */; };
+		37BEAEF812FD791E00392C06 /* UITouch+Synthesize.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BEAEF412FD791E00392C06 /* UITouch+Synthesize.h */; };
+		37BEAEF912FD791E00392C06 /* UITouch+Synthesize.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BEAEF512FD791E00392C06 /* UITouch+Synthesize.m */; };
+		37BEAF0312FD7A0A00392C06 /* UIEvent+Synthesize.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BEAF0112FD7A0A00392C06 /* UIEvent+Synthesize.h */; };
+		37BEAF0412FD7A0A00392C06 /* UIEvent+Synthesize.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BEAF0212FD7A0A00392C06 /* UIEvent+Synthesize.m */; };
+		37BEAF0512FD7A0A00392C06 /* UIEvent+Synthesize.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BEAF0112FD7A0A00392C06 /* UIEvent+Synthesize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37BEAF0612FD7A0A00392C06 /* UIEvent+Synthesize.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BEAF0212FD7A0A00392C06 /* UIEvent+Synthesize.m */; };
 		40C7CC2A12E9E854003FF22C /* DescribeUIExpectation.h in Headers */ = {isa = PBXBuildFile; fileRef = C7D4F2EC10BDA57C00B00019 /* DescribeUIExpectation.h */; };
 		40C7CC2D12E9E8BB003FF22C /* libUISpec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C76EB5D20F74586B00EF8398 /* libUISpec.a */; };
 		C708D8F110C4B86A000A2462 /* UIMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C708D8EE10C4B86A000A2462 /* UIMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -91,6 +99,10 @@
 		2FDBB75910EECD0200193065 /* UIQueryTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIQueryTabBar.m; sourceTree = "<group>"; };
 		2FDBB75A10EECD0200193065 /* UIQueryWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIQueryWebView.h; sourceTree = "<group>"; };
 		2FDBB75B10EECD0200193065 /* UIQueryWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIQueryWebView.m; sourceTree = "<group>"; };
+		37BEAEF412FD791E00392C06 /* UITouch+Synthesize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITouch+Synthesize.h"; sourceTree = "<group>"; };
+		37BEAEF512FD791E00392C06 /* UITouch+Synthesize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITouch+Synthesize.m"; sourceTree = "<group>"; };
+		37BEAF0112FD7A0A00392C06 /* UIEvent+Synthesize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIEvent+Synthesize.h"; sourceTree = "<group>"; };
+		37BEAF0212FD7A0A00392C06 /* UIEvent+Synthesize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIEvent+Synthesize.m"; sourceTree = "<group>"; };
 		C708D8EE10C4B86A000A2462 /* UIMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMatcher.h; sourceTree = "<group>"; };
 		C708D8EF10C4B86A000A2462 /* UIMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMatcher.m; sourceTree = "<group>"; };
 		C7407B58101AA2F900E5392C /* WaitUntilIdle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitUntilIdle.h; sourceTree = "<group>"; };
@@ -191,9 +203,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		37BEAEF112FD78E600392C06 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				37BEAEF312FD78FF00392C06 /* UITouch */,
+				37BEAEF212FD78EE00392C06 /* UIEvent */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		37BEAEF212FD78EE00392C06 /* UIEvent */ = {
+			isa = PBXGroup;
+			children = (
+				37BEAF0112FD7A0A00392C06 /* UIEvent+Synthesize.h */,
+				37BEAF0212FD7A0A00392C06 /* UIEvent+Synthesize.m */,
+			);
+			name = UIEvent;
+			sourceTree = "<group>";
+		};
+		37BEAEF312FD78FF00392C06 /* UITouch */ = {
+			isa = PBXGroup;
+			children = (
+				37BEAEF412FD791E00392C06 /* UITouch+Synthesize.h */,
+				37BEAEF512FD791E00392C06 /* UITouch+Synthesize.m */,
+			);
+			name = UITouch;
+			sourceTree = "<group>";
+		};
 		C76EB5E70F74592C00EF8398 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				37BEAEF112FD78E600392C06 /* Categories */,
 				C76EB5F40F74594900EF8398 /* UISpec.h */,
 				C76EB5F50F74594900EF8398 /* UISpec.m */,
 				C7EFF4D410E40D02007DB16A /* UILog.h */,
@@ -301,6 +341,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				40C7CC2A12E9E854003FF22C /* DescribeUIExpectation.h in Headers */,
+				37BEAEF812FD791E00392C06 /* UITouch+Synthesize.h in Headers */,
+				37BEAF0312FD7A0A00392C06 /* UIEvent+Synthesize.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +380,8 @@
 				2FDBB75E10EECD0200193065 /* UIQuerySegmentedControl.h in Headers */,
 				2FDBB76010EECD0200193065 /* UIQueryTabBar.h in Headers */,
 				2FDBB76210EECD0200193065 /* UIQueryWebView.h in Headers */,
+				37BEAEF612FD791E00392C06 /* UITouch+Synthesize.h in Headers */,
+				37BEAF0512FD7A0A00392C06 /* UIEvent+Synthesize.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +493,8 @@
 				2FDBB75F10EECD0200193065 /* UIQuerySegmentedControl.m in Sources */,
 				2FDBB76110EECD0200193065 /* UIQueryTabBar.m in Sources */,
 				2FDBB76310EECD0200193065 /* UIQueryWebView.m in Sources */,
+				37BEAEF712FD791E00392C06 /* UITouch+Synthesize.m in Sources */,
+				37BEAF0612FD7A0A00392C06 /* UIEvent+Synthesize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +504,8 @@
 			files = (
 				C7D4F2B410BDA48300B00019 /* main.m in Sources */,
 				C7D4F2EE10BDA57C00B00019 /* DescribeUIExpectation.m in Sources */,
+				37BEAEF912FD791E00392C06 /* UITouch+Synthesize.m in Sources */,
+				37BEAF0412FD7A0A00392C06 /* UIEvent+Synthesize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

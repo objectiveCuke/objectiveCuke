@@ -4,3 +4,4 @@
 *.pyc
 *~.nib/
 build/*
+xcode/UISpec/build/*

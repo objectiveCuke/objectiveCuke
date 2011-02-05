@@ -16,5 +16,6 @@
 
 + (UIDriver *)sharedUIDriver;
 - (void)tapElementWithLabel: (NSString*)label;
+- (void)tapPoint: (CGPoint)point;
 
 @end

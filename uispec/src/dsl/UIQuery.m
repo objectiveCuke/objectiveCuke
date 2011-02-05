@@ -12,12 +12,14 @@
 //  appreciated but not required.
 //
 
-@interface UITouch (Synthesize)
+#import <Foundation/Foundation.h>
+
+@interface UITouch (Synthesize_old)
 - (id)initInView:(UIView *)view;
 - (void)setPhase:(UITouchPhase)phase;
 @end
 
-@implementation UITouch (Synthesize)
+@implementation UITouch (Synthesize_old)
 
 //
 // initInView:phase:
@@ -86,6 +88,7 @@
 @end
 
 
+
 //
 // GSEvent is an undeclared object. We don't need to use it ourselves but some
 // Apple APIs (UIScrollView in particular) require the x and y fields to be present.
@@ -143,11 +146,11 @@
 //
 // A category to allow creation of a touch event.
 //
-@interface UIEvent (Synthesize)
+@interface UIEvent (Synthesize_old)
 - (id)initWithTouch:(UITouch *)touch;
 @end
 
-@implementation UIEvent (Synthesize)
+@implementation UIEvent (Synthesize_old)
 
 - (id)initWithTouch:(UITouch *)touch
 {
@@ -201,6 +204,8 @@
 #import "UIFilter.h"
 #import "UIBug.h"
 #import "UIQueryExpectation.h"
+#import "UITouch+Synthesize.h"
+#import "UIEvent+Synthesize.h"
 
 @implementation UIQuery
 

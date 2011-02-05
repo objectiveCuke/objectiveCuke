@@ -93,13 +93,48 @@
 	[window addSubview: navigationController.view];
 	[window makeKeyAndVisible];
 
-	//test tapping a button
+	[self performSelector: @selector(touchAllRowsInCatalog) withObject: nil afterDelay: 2.];
+}
+
+- (void)touchAllRowsInCatalog {
 	UIDriver *driver = [UIDriver sharedUIDriver];
 	driver.appWindow = self.window;
 	
-	[driver performSelector: @selector(tapElementWithLabel:) withObject: @"Buttons" afterDelay: 2.];
-	[driver performSelector: @selector(tapElementWithLabel:) withObject: @"Back" afterDelay: 4.];
-//	[driver performSelector: @selector(tapElementWithLabel:) withObject: @"Controls" afterDelay: 10.];
+	[driver tapElementWithLabel: @"Buttons"];
+	
+	[driver tapPoint: CGPointMake(20, 40)];
+//	[driver tapElementWithLabel: @"Back"];
+	[driver tapElementWithLabel: @"Controls"];
+	
+	[driver tapElementWithLabel: @"Back"];
+	[driver tapElementWithLabel: @"TextFields"];
+	
+	[driver tapElementWithLabel: @"Back"];
+	[driver tapElementWithLabel: @"SearchBar"];
+	
+	[driver tapElementWithLabel: @"Back"];
+	[driver tapElementWithLabel: @"TextView"];
+	
+	[driver tapElementWithLabel: @"Back"];
+	[driver tapElementWithLabel: @"Pickers"];
+	
+	[driver tapElementWithLabel: @"Back"];
+	[driver tapElementWithLabel: @"Images"];
+	
+	[driver tapElementWithLabel: @"Back"];
+	[driver tapElementWithLabel: @"Web"];
+	
+	[driver tapElementWithLabel: @"Back"];
+	[driver tapElementWithLabel: @"Segment"];
+	
+	[driver tapElementWithLabel: @"Back"];
+	[driver tapElementWithLabel: @"Toolbar"];
+	
+	[driver tapElementWithLabel: @"Back"];
+	[driver tapElementWithLabel: @"Alerts"];
+	
+	[driver tapElementWithLabel: @"Back"];
+	[driver tapElementWithLabel: @"Transitions"];	
 }
 
 - (void)dealloc
